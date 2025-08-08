@@ -2,10 +2,10 @@
 
 A  machine learning system for forecasting commodity prices using multiple models - LSTM, XGBoost, ARIMA. 
 
-##Input Data:
+## Input Data:
 Currently, the input data is being taken from data.gov.in wesbite (https://www.data.gov.in/resource/variety-wise-daily-market-prices-data-commodity). You can generate a free API key by authenticating yourself on the website. You can add filters such as commodity, state, district (and arrival date) in the API.
 
-#Expected Input format:
+# Expected Input format:
 ```
 date,commodity,modal_price
 2023-01-01,mustard,5400
