@@ -1,6 +1,16 @@
 # Commodity Price Forecasting System
 
-A production-ready machine learning system for forecasting commodity prices using multiple models (LSTM, XGBoost, ARIMA) with ensemble methods.
+A  machine learning system for forecasting commodity prices using multiple models - LSTM, XGBoost, ARIMA. 
+
+##Input Data:
+Currently, the input data is being taken from data.gov.in wesbite (https://www.data.gov.in/resource/variety-wise-daily-market-prices-data-commodity). You can generate a free API key by authenticating yourself on the website. You can add filters such as commodity, state, district (and arrival date) in the API.
+
+#Expected Input format:
+```
+date,commodity,modal_price
+2023-01-01,mustard,5400
+2023-01-02,mustard,5412
+```
 
 ## 🚀 Features
 
@@ -35,7 +45,7 @@ A production-ready machine learning system for forecasting commodity prices usin
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone huskhi/Commodity-Price-Forecasting
    cd commodity-price-forecasting
    ```
 
@@ -126,7 +136,7 @@ Edit `src/config.py` to customize:
 
 ## 📝 License
 
-[Add your license here]
+This project is licensed under the terms of the MIT License.
 
 ## 🤝 Contributing
 
@@ -136,10 +146,5 @@ Edit `src/config.py` to customize:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📞 Support
-
-For questions or issues, please open an issue on GitHub.
-
----
 
 **Note**: This system is designed for educational and research purposes. Always validate predictions before making financial decisions. 
